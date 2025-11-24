@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI/ML Course Assistant</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+
+    <h2>🎓 AI/ML Course Assistant</h2>
+    <form method="POST" id="queryForm">
+        <div class="search-box">
+            <input type="text" name="question" placeholder="Ask anything about the course..." required>
+        </div>
+        <!-- Submit button with ID added -->
+        <button type="submit" id="submitBtn">Search</button>
+
+        <!-- Loading animation -->
+        <div id="loading" class="loading-box" style="display: none;">
+            <div class="spinner"></div>
+            <p>Processing your query...</p>
+        </div>
+    </form>
+
+    {% if answer %}
+    <div class="response-box">
+        <b>📌 Answer:</b> <br><br>
+        {{ answer | safe }}
+    </div>
+    <script>
+        document.getElementById('loading').style.display = 'none';
+    </script>
+    {% endif %}
+
+    <script>
+        // Show
+        document.getElementById('queryForm').addEventListener('submit', function () {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('submitBtn').disabled = true;
+        });
+    </script>
+</body>
+</html>
