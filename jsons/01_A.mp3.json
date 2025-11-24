@@ -1,0 +1,138 @@
+{
+    "chunks": [
+        {
+            "number": "1",
+            "title": "A",
+            "start": 0.0,
+            "end": 4.38,
+            "text": " Hello students, welcome to the new video fundamentals of data module. So in this"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 4.38,
+            "end": 10.8,
+            "text": " video we will be talking about what is data. So in simple words data is simply a"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 10.8,
+            "end": 17.64,
+            "text": " piece of information that can be anything from numbers to words or to"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 17.64,
+            "end": 24.44,
+            "text": " pictures and sound. So it's like the raw material that we collect to"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 24.44,
+            "end": 29.48,
+            "text": " understand or solve a problem. Let's say for example if you are tracking that how"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 29.48,
+            "end": 34.36,
+            "text": " many steps you take each day. So you can collect the number of steps as the data."
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 34.36,
+            "end": 38.96,
+            "text": " So this will be called as data and by looking at this data you can figure out"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 38.96,
+            "end": 43.24,
+            "text": " the patterns. Like for example you can figure out if you are more active on"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 43.24,
+            "end": 47.400000000000006,
+            "text": " weekends or weekdays because you are collecting this information on every day."
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 47.400000000000006,
+            "end": 52.400000000000006,
+            "text": " Alright so data refers to the raw fact and figure that can be processed to gain"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 52.400000000000006,
+            "end": 57.24,
+            "text": " insights and as I said it can be in the form of text, it can be in the form of"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 57.24,
+            "end": 63.120000000000005,
+            "text": " numbers, it can be in the form of audio and it can also be in the form of video."
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 63.120000000000005,
+            "end": 68.16,
+            "text": " Data is categorized into multiple categories which you will learn in"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 68.16,
+            "end": 73.84,
+            "text": " upcoming videos. So for example how we divide data into categories. Data can be"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 73.84,
+            "end": 78.68,
+            "text": " categorized as a structured data, semi-structured data, unstructured data"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 78.68,
+            "end": 81.96000000000001,
+            "text": " which is very important to understand which you will learn in the next video."
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 82.67999999999999,
+            "end": 87.55999999999999,
+            "text": " Data is the foundation for creating knowledge and making informed decisions"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 87.55999999999999,
+            "end": 92.44,
+            "text": " in various fields like business, technology and science. So that's it for"
+        },
+        {
+            "number": "1",
+            "title": "A",
+            "start": 92.44,
+            "end": 97.11999999999999,
+            "text": " this video. Thank you so much and I'll see you in the next video."
+        }
+    ],
+    "text": " Hello students, welcome to the new video fundamentals of data module. So in this video we will be talking about what is data. So in simple words data is simply a piece of information that can be anything from numbers to words or to pictures and sound. So it's like the raw material that we collect to understand or solve a problem. Let's say for example if you are tracking that how many steps you take each day. So you can collect the number of steps as the data. So this will be called as data and by looking at this data you can figure out the patterns. Like for example you can figure out if you are more active on weekends or weekdays because you are collecting this information on every day. Alright so data refers to the raw fact and figure that can be processed to gain insights and as I said it can be in the form of text, it can be in the form of numbers, it can be in the form of audio and it can also be in the form of video. Data is categorized into multiple categories which you will learn in upcoming videos. So for example how we divide data into categories. Data can be categorized as a structured data, semi-structured data, unstructured data which is very important to understand which you will learn in the next video. Data is the foundation for creating knowledge and making informed decisions in various fields like business, technology and science. So that's it for this video. Thank you so much and I'll see you in the next video."
+}

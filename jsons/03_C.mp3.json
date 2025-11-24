@@ -1,0 +1,194 @@
+{
+    "chunks": [
+        {
+            "number": "3",
+            "title": "C",
+            "start": 0.0,
+            "end": 3.7600000000000002,
+            "text": " Hi students, welcome to the new video of fundamentals of data module."
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 3.7600000000000002,
+            "end": 8.72,
+            "text": " So in this video we will be talking about qualitative and quantitative data."
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 8.72,
+            "end": 14.0,
+            "text": " So in the previous video we have learned about what is structured, semi-structured and unstructured"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 14.0,
+            "end": 22.48,
+            "text": " data. Data can be categorized as qualitative and quantitative as well. So in this video we will"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 22.48,
+            "end": 28.72,
+            "text": " try to understand qualitative data and quantitative data. So what is qualitative data? Qualitative"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 28.72,
+            "end": 36.0,
+            "text": " data describes characteristics or qualities. So this is actually non-numeric in nature. We don't"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 36.0,
+            "end": 41.76,
+            "text": " have numbers here. So we are describing the quality of something. So it's used to understand"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 41.76,
+            "end": 48.239999999999995,
+            "text": " the concepts or the experiences or the opinion. So because we don't have any number here. Okay."
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 48.239999999999995,
+            "end": 54.56,
+            "text": " So it's kind of a description or a description which is actually driving or describing the"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 54.56,
+            "end": 60.56,
+            "text": " quality of something. For example, description of customer feeling about a product or open-ended"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 60.56,
+            "end": 66.24000000000001,
+            "text": " survey responses. So you have bought the product and now you are writing some reviews on it. So"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 66.96000000000001,
+            "end": 71.92,
+            "text": " it can be positive, it can be negative, it can be a good review, can be a bad review as per the"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 72.64,
+            "end": 78.24000000000001,
+            "text": " your understanding of the product. Okay. So here we don't have any number. You are just describing"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 78.24,
+            "end": 84.96,
+            "text": " the quality of something. Okay. Now the next one is the quantitative data. So as the name suggests"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 84.96,
+            "end": 91.03999999999999,
+            "text": " that this data is numeric in nature and it can be measured or counted. If I talk about the previous"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 91.03999999999999,
+            "end": 97.28,
+            "text": " category, you cannot measure it, right? You cannot count it. You can just only look at it and you can"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 97.28,
+            "end": 103.44,
+            "text": " just try to find out if it's positive or negative, right? But in quantitative data, you can measure"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 103.44,
+            "end": 109.2,
+            "text": " this kind of data. You can count this data. It's used to quantify variables and can be subject to"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 109.2,
+            "end": 115.6,
+            "text": " statistical analysis. It means that when you have the numbers, okay, so you can perform statistical"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 115.6,
+            "end": 120.4,
+            "text": " analysis on this one. You can count, you can perform some, you can find out the average and"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 120.4,
+            "end": 126.32,
+            "text": " you can do many more calculations on it. So that's why we call it a quantitative data. Example for"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 126.32,
+            "end": 132.96,
+            "text": " this like a sales figure, temperature reading or test score or your weight, height. It can be"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 132.96,
+            "end": 140.56,
+            "text": " any data which is in the form of numbers. So you can perform the sum average or you can easily count"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 140.56,
+            "end": 147.12,
+            "text": " or work with these kinds of aggregations. So this is the quantitative data examples. So to recap,"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 147.12,
+            "end": 153.76000000000002,
+            "text": " we have two categories. One is qualitative data and one is quantitative data. So qualitative"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 153.76000000000002,
+            "end": 159.68,
+            "text": " data in simple words is describing the quality of something and quantitative data can be measured"
+        },
+        {
+            "number": "3",
+            "title": "C",
+            "start": 159.68,
+            "end": 165.36,
+            "text": " or count. So that's it for this video. Thanks for watching and I'll see you in the next video."
+        }
+    ],
+    "text": " Hi students, welcome to the new video of fundamentals of data module. So in this video we will be talking about qualitative and quantitative data. So in the previous video we have learned about what is structured, semi-structured and unstructured data. Data can be categorized as qualitative and quantitative as well. So in this video we will try to understand qualitative data and quantitative data. So what is qualitative data? Qualitative data describes characteristics or qualities. So this is actually non-numeric in nature. We don't have numbers here. So we are describing the quality of something. So it's used to understand the concepts or the experiences or the opinion. So because we don't have any number here. Okay. So it's kind of a description or a description which is actually driving or describing the quality of something. For example, description of customer feeling about a product or open-ended survey responses. So you have bought the product and now you are writing some reviews on it. So it can be positive, it can be negative, it can be a good review, can be a bad review as per the your understanding of the product. Okay. So here we don't have any number. You are just describing the quality of something. Okay. Now the next one is the quantitative data. So as the name suggests that this data is numeric in nature and it can be measured or counted. If I talk about the previous category, you cannot measure it, right? You cannot count it. You can just only look at it and you can just try to find out if it's positive or negative, right? But in quantitative data, you can measure this kind of data. You can count this data. It's used to quantify variables and can be subject to statistical analysis. It means that when you have the numbers, okay, so you can perform statistical analysis on this one. You can count, you can perform some, you can find out the average and you can do many more calculations on it. So that's why we call it a quantitative data. Example for this like a sales figure, temperature reading or test score or your weight, height. It can be any data which is in the form of numbers. So you can perform the sum average or you can easily count or work with these kinds of aggregations. So this is the quantitative data examples. So to recap, we have two categories. One is qualitative data and one is quantitative data. So qualitative data in simple words is describing the quality of something and quantitative data can be measured or count. So that's it for this video. Thanks for watching and I'll see you in the next video."
+}

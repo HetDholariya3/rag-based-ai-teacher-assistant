@@ -1,0 +1,649 @@
+{
+    "chunks": [
+        {
+            "number": "10",
+            "title": "J",
+            "start": 0.0,
+            "end": 5.24,
+            "text": " Hi students, so welcome to the new video fundamentals of data. Now in this video"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 5.24,
+            "end": 10.4,
+            "text": " we'll be talking about data transformation. So what we learn in this"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 10.4,
+            "end": 16.0,
+            "text": " video we are going to understand what is data transformation and understanding"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 16.0,
+            "end": 20.88,
+            "text": " the common data transformation techniques. So let's talk about what is"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 20.88,
+            "end": 25.64,
+            "text": " data transformation first. Now as you can see data transformation is the process"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 25.64,
+            "end": 30.080000000000002,
+            "text": " of converting the data from its original format into a format that is"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 30.080000000000002,
+            "end": 33.36,
+            "text": " more appropriate for analysis of processing. So in simple words that you"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 33.36,
+            "end": 38.08,
+            "text": " have the data in a particular format and now you are going to convert it now as"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 38.08,
+            "end": 43.44,
+            "text": " per your requirement so that it can help you in analysis or processing in a good"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 43.44,
+            "end": 49.84,
+            "text": " way. So some common data transformation techniques I am going to list here so"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 49.84,
+            "end": 54.16,
+            "text": " first is the normalization. We will talk about all these things one by one but"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 54.16,
+            "end": 58.36,
+            "text": " let's see the name only the first the normalization then we have aggregation"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 58.36,
+            "end": 63.239999999999995,
+            "text": " we have encoding we have data integration can also talk about the data"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 63.239999999999995,
+            "end": 69.75999999999999,
+            "text": " mapping and the last is the feature engineering. So what is normalization? So"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 69.75999999999999,
+            "end": 75.36,
+            "text": " as you can see that you are doing some kind of changing the range or you are"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 75.36,
+            "end": 78.64,
+            "text": " converting the data into a particular range by looking at the name of the"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 78.64,
+            "end": 83.12,
+            "text": " normalization that you are normalizing the data. So I can say that is scaling"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 83.12,
+            "end": 89.12,
+            "text": " the data to fall within a specific range so often it is 0 to 1 to ensure"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 89.12,
+            "end": 93.08000000000001,
+            "text": " that different features are on comparable scale. So the meaning the"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 93.08000000000001,
+            "end": 96.80000000000001,
+            "text": " simple meaning for normalization here is sometimes what happened that we have a"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 96.80000000000001,
+            "end": 101.52000000000001,
+            "text": " data set in which we have multiple variables. So let's say I have an age"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 101.52000000000001,
+            "end": 105.16,
+            "text": " column then I also have a spending column then I also have one more column"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 105.16,
+            "end": 110.72,
+            "text": " so in each column we have the ranges from you know 20 to let's say 50 right"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 110.76,
+            "end": 115.24,
+            "text": " so which is not a very huge number but we can have another variable in which we"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 115.24,
+            "end": 120.03999999999999,
+            "text": " have the values ranging from 200 to 500 then we can have another value in which"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 120.03999999999999,
+            "end": 126.28,
+            "text": " the values are ranging from 10,000 to 50,000 so if I compare this 10,000 50,000"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 126.28,
+            "end": 131.36,
+            "text": " value to 20, 30, 40 so you can see that there is a huge difference. So you will"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 131.36,
+            "end": 135.48,
+            "text": " learn few things in the later modules that how it's gonna be in the real world"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 135.48,
+            "end": 141.28,
+            "text": " how we change the values and why exactly what is the requirement to change these"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 141.28,
+            "end": 145.95999999999998,
+            "text": " things but so far for this video now you can understand that when you have a"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 145.95999999999998,
+            "end": 151.51999999999998,
+            "text": " difference in scaling like 10,000 or 50,000 and 20 and 30 we have a very huge"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 151.51999999999998,
+            "end": 155.92,
+            "text": " difference between these values. So what we try we try to normalize all these"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 155.92,
+            "end": 161.23999999999998,
+            "text": " variables between 0 to 1 so all the variables will be in the same range so"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 161.24,
+            "end": 166.60000000000002,
+            "text": " that we can analyze it better and some algorithms are actually very I would say"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 166.60000000000002,
+            "end": 171.68,
+            "text": " sensitive when it comes to the different scaling okay so you will be talking"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 171.68,
+            "end": 176.04000000000002,
+            "text": " about or working on these algorithms later on some upcoming modules but for"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 176.04000000000002,
+            "end": 179.96,
+            "text": " now you can understand that we are converting the data into a specified"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 179.96,
+            "end": 185.44,
+            "text": " range this is normalization. Now converting test score to scale from 0 to"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 185.44,
+            "end": 191.0,
+            "text": " 100 also one good example. Now let's talk about the aggregation now by"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 191.0,
+            "end": 193.92,
+            "text": " looking at the name once again something you are summarizing or"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 193.92,
+            "end": 198.88,
+            "text": " combining data to provide high level insights I would say so this might"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 198.88,
+            "end": 203.08,
+            "text": " involve calculating the averages or you are calculating the total sum of"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 203.08,
+            "end": 207.08,
+            "text": " something or other summary statistics like mean median or mode so you are"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 207.08,
+            "end": 213.04,
+            "text": " summarizing your data in this case. Example is summarizing daily sales data"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 213.04,
+            "end": 220.6,
+            "text": " into monthly totals. Now encoding is also the part of data transformation"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 220.6,
+            "end": 225.64,
+            "text": " and encoding means that you're converting the categorical data or the"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 225.64,
+            "end": 229.88,
+            "text": " data in which you have categories like you can have categories high medium low"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 229.88,
+            "end": 235.32,
+            "text": " you can have other categories okay like good bad or you can have many categories"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 235.32,
+            "end": 241.12,
+            "text": " right so when you have this kind of data so sometimes there is a need to convert"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 241.12,
+            "end": 247.32,
+            "text": " the data into numerical format because there are some algorithms which cannot"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 247.35999999999999,
+            "end": 251.79999999999998,
+            "text": " process the data into the categories they can only understand the numerical"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 251.79999999999998,
+            "end": 257.15999999999997,
+            "text": " data so for this numerical input which you are going to feed into the algorithm"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 257.15999999999997,
+            "end": 263.28,
+            "text": " you need to understand those categorical data into the numerical format but how we"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 263.28,
+            "end": 267.0,
+            "text": " do the encoding this is the next level process so there are some different"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 267.0,
+            "end": 270.8,
+            "text": " techniques but for now you can understand that converting something to"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 270.8,
+            "end": 274.68,
+            "text": " numerical format like converting text based categories you can have some"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 274.72,
+            "end": 280.24,
+            "text": " categories like red blue green and we are converting this into numerical value"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 280.24,
+            "end": 286.12,
+            "text": " as per our understanding so I can map 1 to red 2 to blue and 3 to green in this"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 286.12,
+            "end": 293.48,
+            "text": " example so this is called encoding. Now data integration so once again we are"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 293.48,
+            "end": 297.8,
+            "text": " combining data from multiple sources into a cohesive data set so you are"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 297.8,
+            "end": 303.04,
+            "text": " merging customer information from a CRM with the transaction data from an"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 303.12,
+            "end": 308.72,
+            "text": " e-commerce platform so you are integrating multiple sources. Data"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 308.72,
+            "end": 313.56,
+            "text": " mapping transforming data from one format or schema to another to ensure"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 313.56,
+            "end": 319.68,
+            "text": " compatibility so sometimes what happens that you have the database and you are"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 319.68,
+            "end": 323.84000000000003,
+            "text": " going to transform it just because you want to feed this data into another"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 323.84000000000003,
+            "end": 328.84000000000003,
+            "text": " platform so let's see example mapping data fields from an old database schema"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 328.96,
+            "end": 333.91999999999996,
+            "text": " to a new schema so you have an old database which is actually following a"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 333.91999999999996,
+            "end": 338.2,
+            "text": " different schema. Schema means a structure so currently you just go ahead"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 338.2,
+            "end": 343.56,
+            "text": " with this word and in upcoming modules you will get the idea as you go ahead in"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 343.56,
+            "end": 347.44,
+            "text": " this domain what is the exact meaning of schema but for now in the simple words"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 347.44,
+            "end": 351.67999999999995,
+            "text": " you can understand that you have a predefined format and this is an old"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 351.67999999999995,
+            "end": 357.55999999999995,
+            "text": " schema which is followed by a old database now you are going to migrate or"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 357.6,
+            "end": 362.16,
+            "text": " you are going to transfer this data to a new database so in this case there is a"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 362.16,
+            "end": 367.0,
+            "text": " new schema so you need to map it accordingly so that there is no problem"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 367.0,
+            "end": 374.12,
+            "text": " in transferring the data from one to another. Feature engineering creating new"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 374.12,
+            "end": 379.44,
+            "text": " features or modifying existing ones to improve model performance or analytical"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 379.44,
+            "end": 383.84000000000003,
+            "text": " insights so what's the meaning of this one so let's see the example creating a"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 383.84,
+            "end": 387.64,
+            "text": " new feature that represent the total number of transactions a customer has"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 387.64,
+            "end": 392.88,
+            "text": " made over a period so basically this was not available before but you are"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 392.88,
+            "end": 397.03999999999996,
+            "text": " creating it by taking example from another column or you can have many"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 397.03999999999996,
+            "end": 400.84,
+            "text": " examples for feature engineering to better understand this in the basic"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 400.84,
+            "end": 405.84,
+            "text": " level so let's say I have a date of birth column I have an employee database"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 405.84,
+            "end": 409.84,
+            "text": " and employee table so in which I have a date of birth column so anytime and I"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 409.84,
+            "end": 414.4,
+            "text": " can calculate the age of the employees because I can subtract the year of birth"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 414.4,
+            "end": 419.64,
+            "text": " from the two days or you know the current year so in this case it will"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 419.64,
+            "end": 423.64,
+            "text": " help me to calculate the age of those peoples so there can be many more"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 423.64,
+            "end": 429.0,
+            "text": " examples whenever you are deriving any column or any feature by taking example"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 429.0,
+            "end": 432.35999999999996,
+            "text": " from one or more columns in your data set you can call this as feature"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 432.35999999999996,
+            "end": 437.23999999999995,
+            "text": " engineering so to recap we have understood the data transformation"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 437.24,
+            "end": 442.40000000000003,
+            "text": " techniques like aggregation normalization encoding data integration"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 442.40000000000003,
+            "end": 447.32,
+            "text": " data mapping and feature engineering so that's it for the transformation video"
+        },
+        {
+            "number": "10",
+            "title": "J",
+            "start": 447.32,
+            "end": 452.24,
+            "text": " and thanks for watching I'll see you in the next video"
+        }
+    ],
+    "text": " Hi students, so welcome to the new video fundamentals of data. Now in this video we'll be talking about data transformation. So what we learn in this video we are going to understand what is data transformation and understanding the common data transformation techniques. So let's talk about what is data transformation first. Now as you can see data transformation is the process of converting the data from its original format into a format that is more appropriate for analysis of processing. So in simple words that you have the data in a particular format and now you are going to convert it now as per your requirement so that it can help you in analysis or processing in a good way. So some common data transformation techniques I am going to list here so first is the normalization. We will talk about all these things one by one but let's see the name only the first the normalization then we have aggregation we have encoding we have data integration can also talk about the data mapping and the last is the feature engineering. So what is normalization? So as you can see that you are doing some kind of changing the range or you are converting the data into a particular range by looking at the name of the normalization that you are normalizing the data. So I can say that is scaling the data to fall within a specific range so often it is 0 to 1 to ensure that different features are on comparable scale. So the meaning the simple meaning for normalization here is sometimes what happened that we have a data set in which we have multiple variables. So let's say I have an age column then I also have a spending column then I also have one more column so in each column we have the ranges from you know 20 to let's say 50 right so which is not a very huge number but we can have another variable in which we have the values ranging from 200 to 500 then we can have another value in which the values are ranging from 10,000 to 50,000 so if I compare this 10,000 50,000 value to 20, 30, 40 so you can see that there is a huge difference. So you will learn few things in the later modules that how it's gonna be in the real world how we change the values and why exactly what is the requirement to change these things but so far for this video now you can understand that when you have a difference in scaling like 10,000 or 50,000 and 20 and 30 we have a very huge difference between these values. So what we try we try to normalize all these variables between 0 to 1 so all the variables will be in the same range so that we can analyze it better and some algorithms are actually very I would say sensitive when it comes to the different scaling okay so you will be talking about or working on these algorithms later on some upcoming modules but for now you can understand that we are converting the data into a specified range this is normalization. Now converting test score to scale from 0 to 100 also one good example. Now let's talk about the aggregation now by looking at the name once again something you are summarizing or combining data to provide high level insights I would say so this might involve calculating the averages or you are calculating the total sum of something or other summary statistics like mean median or mode so you are summarizing your data in this case. Example is summarizing daily sales data into monthly totals. Now encoding is also the part of data transformation and encoding means that you're converting the categorical data or the data in which you have categories like you can have categories high medium low you can have other categories okay like good bad or you can have many categories right so when you have this kind of data so sometimes there is a need to convert the data into numerical format because there are some algorithms which cannot process the data into the categories they can only understand the numerical data so for this numerical input which you are going to feed into the algorithm you need to understand those categorical data into the numerical format but how we do the encoding this is the next level process so there are some different techniques but for now you can understand that converting something to numerical format like converting text based categories you can have some categories like red blue green and we are converting this into numerical value as per our understanding so I can map 1 to red 2 to blue and 3 to green in this example so this is called encoding. Now data integration so once again we are combining data from multiple sources into a cohesive data set so you are merging customer information from a CRM with the transaction data from an e-commerce platform so you are integrating multiple sources. Data mapping transforming data from one format or schema to another to ensure compatibility so sometimes what happens that you have the database and you are going to transform it just because you want to feed this data into another platform so let's see example mapping data fields from an old database schema to a new schema so you have an old database which is actually following a different schema. Schema means a structure so currently you just go ahead with this word and in upcoming modules you will get the idea as you go ahead in this domain what is the exact meaning of schema but for now in the simple words you can understand that you have a predefined format and this is an old schema which is followed by a old database now you are going to migrate or you are going to transfer this data to a new database so in this case there is a new schema so you need to map it accordingly so that there is no problem in transferring the data from one to another. Feature engineering creating new features or modifying existing ones to improve model performance or analytical insights so what's the meaning of this one so let's see the example creating a new feature that represent the total number of transactions a customer has made over a period so basically this was not available before but you are creating it by taking example from another column or you can have many examples for feature engineering to better understand this in the basic level so let's say I have a date of birth column I have an employee database and employee table so in which I have a date of birth column so anytime and I can calculate the age of the employees because I can subtract the year of birth from the two days or you know the current year so in this case it will help me to calculate the age of those peoples so there can be many more examples whenever you are deriving any column or any feature by taking example from one or more columns in your data set you can call this as feature engineering so to recap we have understood the data transformation techniques like aggregation normalization encoding data integration data mapping and feature engineering so that's it for the transformation video and thanks for watching I'll see you in the next video"
+}

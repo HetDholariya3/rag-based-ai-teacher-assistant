@@ -1,0 +1,152 @@
+{
+    "chunks": [
+        {
+            "number": "8",
+            "title": "H",
+            "start": 0.0,
+            "end": 4.76,
+            "text": " Hi students, so welcome to the fundamentals of data and let's talk"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 4.76,
+            "end": 11.82,
+            "text": " about what is data cleaning. So in this video we'll be talking about the data"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 11.82,
+            "end": 18.0,
+            "text": " cleaning. Now what is data cleaning? As you can see data cleaning is the process"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 18.0,
+            "end": 25.2,
+            "text": " of identifying and correcting errors and inconsistencies in data to improve its"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 25.2,
+            "end": 31.0,
+            "text": " quality and reliability. Now this is the definition from book right? Now you can"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 31.0,
+            "end": 36.32,
+            "text": " understand data cleaning is the process of simple you are correcting the data or"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 36.32,
+            "end": 41.04,
+            "text": " you are removing the errors which is actually completely clear from this"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 41.04,
+            "end": 45.879999999999995,
+            "text": " definition. But now why it is required? It's required because you are going to"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 45.879999999999995,
+            "end": 51.5,
+            "text": " work with the data right? So the data quality is very important. You have the"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 51.5,
+            "end": 56.62,
+            "text": " data it doesn't matter how big the data is it can be in kilobytes, megabytes,"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 56.62,
+            "end": 61.9,
+            "text": " terabytes, petabytes, gigabytes but if you don't have the quality data then the"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 61.9,
+            "end": 65.94,
+            "text": " problem is that it will definitely give you the wrong results and can have many"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 65.94,
+            "end": 71.66,
+            "text": " other problems as well when you process the data or when you analyze the data. So"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 71.66,
+            "end": 76.9,
+            "text": " data cleaning is essential for accurate reporting analysis and the decision"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 76.9,
+            "end": 82.10000000000001,
+            "text": " making because as you have now you have the correct data all the things are"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 82.10000000000001,
+            "end": 87.82000000000001,
+            "text": " correct there is no inconsistency there is no problem of errors there is no such"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 87.82000000000001,
+            "end": 92.22,
+            "text": " kind of missing values so you can easily analyze the data and you can get the"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 92.22,
+            "end": 96.7,
+            "text": " good results and based on that the decision making will be very good. So the"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 96.7,
+            "end": 102.34,
+            "text": " goal is to ensure that the data is accurate, complete and consistent and the"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 102.46000000000001,
+            "end": 107.74000000000001,
+            "text": " data is free from the errors. So this is the data cleaning and this ends the"
+        },
+        {
+            "number": "8",
+            "title": "H",
+            "start": 107.74000000000001,
+            "end": 113.26,
+            "text": " video. So thanks so much for watching and I'll see you in the next video."
+        }
+    ],
+    "text": " Hi students, so welcome to the fundamentals of data and let's talk about what is data cleaning. So in this video we'll be talking about the data cleaning. Now what is data cleaning? As you can see data cleaning is the process of identifying and correcting errors and inconsistencies in data to improve its quality and reliability. Now this is the definition from book right? Now you can understand data cleaning is the process of simple you are correcting the data or you are removing the errors which is actually completely clear from this definition. But now why it is required? It's required because you are going to work with the data right? So the data quality is very important. You have the data it doesn't matter how big the data is it can be in kilobytes, megabytes, terabytes, petabytes, gigabytes but if you don't have the quality data then the problem is that it will definitely give you the wrong results and can have many other problems as well when you process the data or when you analyze the data. So data cleaning is essential for accurate reporting analysis and the decision making because as you have now you have the correct data all the things are correct there is no inconsistency there is no problem of errors there is no such kind of missing values so you can easily analyze the data and you can get the good results and based on that the decision making will be very good. So the goal is to ensure that the data is accurate, complete and consistent and the data is free from the errors. So this is the data cleaning and this ends the video. So thanks so much for watching and I'll see you in the next video."
+}

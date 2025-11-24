@@ -1,0 +1,285 @@
+{
+    "chunks": [
+        {
+            "number": "5",
+            "title": "E",
+            "start": 0.0,
+            "end": 5.2,
+            "text": " Hi students, welcome to the new video of the fundamentals of data module and in"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 5.2,
+            "end": 9.32,
+            "text": " this video we will be talking about what is a data source. This is a very"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 9.32,
+            "end": 13.4,
+            "text": " important topic when you start the data fundamentals and you are going to learn"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 13.4,
+            "end": 20.44,
+            "text": " data analysis and data science. So what is a data source? So a data source is"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 20.44,
+            "end": 25.84,
+            "text": " the origin from which data is collected or retrieved. So basically data is"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 25.84,
+            "end": 31.92,
+            "text": " stored somewhere it can be a database or it can be a file and this is the source"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 31.92,
+            "end": 38.16,
+            "text": " you are getting the data from it and you can pull the data from the source and"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 38.16,
+            "end": 42.2,
+            "text": " can analyze it. So it's the place or system where the data resides before"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 42.2,
+            "end": 49.04,
+            "text": " it's analyzed or processed. Now data sources can be physical or digital and"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 49.519999999999996,
+            "end": 57.0,
+            "text": " vary widely depending on the type of data being used. Now there are types of"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 57.0,
+            "end": 63.2,
+            "text": " data sources one is machine data source and another one is file data source. So"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 63.2,
+            "end": 67.4,
+            "text": " what is a machine data source first? So as you can see it's written like"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 67.4,
+            "end": 72.44,
+            "text": " closely linked to specific machines where they reside. So basically the data"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 72.44,
+            "end": 77.44,
+            "text": " is generated and you are getting the data directly from that machine this is"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 77.44,
+            "end": 82.0,
+            "text": " machine data source. So they rely on data source name which direct systems to"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 82.0,
+            "end": 86.8,
+            "text": " where the data stored on that machine and it is not very flexible because it's"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 86.8,
+            "end": 92.96,
+            "text": " not easy to share or to access data across different systems or locations. So"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 92.96,
+            "end": 99.36,
+            "text": " let's think about a refrigerator right so this fridge is recording that how"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 99.36,
+            "end": 102.72,
+            "text": " many times you are opening and closing the door for example and what's the"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 102.72,
+            "end": 108.56,
+            "text": " temperature inside the fridge. Okay so we can get this information directly"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 108.56,
+            "end": 113.08,
+            "text": " from this machine because this fridge is a machine right so the number of times"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 113.08,
+            "end": 116.56,
+            "text": " you are opening and closing the door or the temperature inside this machine or"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 116.56,
+            "end": 120.8,
+            "text": " in temperature inside the fridge. So this is machine data source because you are"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 120.8,
+            "end": 125.92,
+            "text": " directly getting the data from it but the file data sources are different. So"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 125.92,
+            "end": 132.28,
+            "text": " this is us this is not confined to a single machine or application. So they"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 132.32,
+            "end": 136.2,
+            "text": " are typically in the form of files that are easily transferred and accessed"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 136.2,
+            "end": 140.6,
+            "text": " across various devices and systems. So you just think about a spreadsheet like"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 140.6,
+            "end": 145.96,
+            "text": " an Excel spreadsheet. So in this one you have data related to customers. Okay so"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 145.96,
+            "end": 150.56,
+            "text": " this is an Excel file so you can share this file easily and because this is a"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 150.56,
+            "end": 156.24,
+            "text": " file so this is a file data source. It can be a file it can be a database let's"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 156.24,
+            "end": 161.64,
+            "text": " say my SQL server SQL server these are some database names. So a file data"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 161.67999999999998,
+            "end": 166.6,
+            "text": " source can contain the data in a file format like an Excel file or a CSV file"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 166.6,
+            "end": 172.27999999999997,
+            "text": " or different other file formats or it can be a fully fledged database. So these"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 172.27999999999997,
+            "end": 176.14,
+            "text": " are highly flexible in sharing and accessing data by various users because"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 176.14,
+            "end": 181.2,
+            "text": " you can easily share the file with anyone or you can share the file across"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 181.2,
+            "end": 185.2,
+            "text": " different systems. So this is the primary difference between machine data source"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 185.2,
+            "end": 189.76,
+            "text": " and file data source. Machine data source means that you have the data directly"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 189.76,
+            "end": 194.51999999999998,
+            "text": " from the machine and file data source that you have data stored in a file"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 194.51999999999998,
+            "end": 199.51999999999998,
+            "text": " format. So this is the end of this video and thanks for watching I'll see you in"
+        },
+        {
+            "number": "5",
+            "title": "E",
+            "start": 199.51999999999998,
+            "end": 202.12,
+            "text": " the next video."
+        }
+    ],
+    "text": " Hi students, welcome to the new video of the fundamentals of data module and in this video we will be talking about what is a data source. This is a very important topic when you start the data fundamentals and you are going to learn data analysis and data science. So what is a data source? So a data source is the origin from which data is collected or retrieved. So basically data is stored somewhere it can be a database or it can be a file and this is the source you are getting the data from it and you can pull the data from the source and can analyze it. So it's the place or system where the data resides before it's analyzed or processed. Now data sources can be physical or digital and vary widely depending on the type of data being used. Now there are types of data sources one is machine data source and another one is file data source. So what is a machine data source first? So as you can see it's written like closely linked to specific machines where they reside. So basically the data is generated and you are getting the data directly from that machine this is machine data source. So they rely on data source name which direct systems to where the data stored on that machine and it is not very flexible because it's not easy to share or to access data across different systems or locations. So let's think about a refrigerator right so this fridge is recording that how many times you are opening and closing the door for example and what's the temperature inside the fridge. Okay so we can get this information directly from this machine because this fridge is a machine right so the number of times you are opening and closing the door or the temperature inside this machine or in temperature inside the fridge. So this is machine data source because you are directly getting the data from it but the file data sources are different. So this is us this is not confined to a single machine or application. So they are typically in the form of files that are easily transferred and accessed across various devices and systems. So you just think about a spreadsheet like an Excel spreadsheet. So in this one you have data related to customers. Okay so this is an Excel file so you can share this file easily and because this is a file so this is a file data source. It can be a file it can be a database let's say my SQL server SQL server these are some database names. So a file data source can contain the data in a file format like an Excel file or a CSV file or different other file formats or it can be a fully fledged database. So these are highly flexible in sharing and accessing data by various users because you can easily share the file with anyone or you can share the file across different systems. So this is the primary difference between machine data source and file data source. Machine data source means that you have the data directly from the machine and file data source that you have data stored in a file format. So this is the end of this video and thanks for watching I'll see you in the next video."
+}

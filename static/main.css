@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.search-box {
+    width: 500px;
+    max-width: 90%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 50px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 0 10px #007bff;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.response-box {
+    margin-top: 20px;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    white-space: pre-line;  /* IMPORTANT: To format answer properly */
+}
+/* 🔄 Loading Animation */
+.loading-box {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 5px solid #ddd;
+    border-top: 5px solid #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: auto;
+    margin-bottom: 10px;
+}
+@keyframes spin {
+    100% { transform: rotate(360deg); }
+}

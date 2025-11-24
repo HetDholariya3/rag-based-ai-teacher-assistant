@@ -1,0 +1,530 @@
+{
+    "chunks": [
+        {
+            "number": "6",
+            "title": "F",
+            "start": 0.0,
+            "end": 6.0,
+            "text": " Hello students, welcome to the new video of fundamentals of data module. So in this"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 6.0,
+            "end": 10.96,
+            "text": " video we will be talking about the data sources and what are some common data"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 10.96,
+            "end": 17.8,
+            "text": " sources. So databases this is the first thing because when we collect the data"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 17.8,
+            "end": 24.240000000000002,
+            "text": " and when we try to store the data a database is required and database is the"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 24.24,
+            "end": 30.32,
+            "text": " collection of organized data. So when you want to organize the data and you want"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 30.32,
+            "end": 34.4,
+            "text": " to retrieve it in a good way then you have to collect it in a database and you"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 34.4,
+            "end": 41.599999999999994,
+            "text": " have to store it in a database. So you can store this electronically. Now these"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 41.599999999999994,
+            "end": 48.0,
+            "text": " are the names of some most common databases I would say MySQL is an open"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 48.0,
+            "end": 52.599999999999994,
+            "text": " source relational database and PostgreSQL is also another database"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 52.6,
+            "end": 58.120000000000005,
+            "text": " management system and MongoDB. MongoDB is also another database and this is for"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 58.120000000000005,
+            "end": 63.88,
+            "text": " non-relational as well. So we have two kinds of databases like relational"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 63.88,
+            "end": 68.28,
+            "text": " databases and non-relational databases. Few things you are going to learn in"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 68.28,
+            "end": 72.04,
+            "text": " your upcoming modules the exact difference between the relational and"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 72.04,
+            "end": 76.24000000000001,
+            "text": " non-relational database but because you already know from your previous videos"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 76.24000000000001,
+            "end": 80.28,
+            "text": " about structured and unstructured data so the data which is a structured in"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 80.28,
+            "end": 85.52,
+            "text": " form and it's connected with the means of relations so you can have multiple"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 85.52,
+            "end": 90.04,
+            "text": " tables in a database like a table of customers a table of orders a table of"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 90.04,
+            "end": 95.76,
+            "text": " products. So these tables are connected with a common column between them so"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 95.76,
+            "end": 100.84,
+            "text": " that's why we call these as relational databases because there is a relation"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 100.84,
+            "end": 105.88,
+            "text": " between these tables but we also have non-relational databases and these"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 105.92,
+            "end": 111.32,
+            "text": " databases are like you have the example here which is MongoDB. So nowadays these"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 111.32,
+            "end": 116.16,
+            "text": " kind of database are also required because we have the data which is 80 to"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 116.16,
+            "end": 120.92,
+            "text": " 85 percent nowadays the data is in unstructured or semi-structured format."
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 120.92,
+            "end": 127.39999999999999,
+            "text": " So for now the only thing you have to understand is that a data source can be"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 127.39999999999999,
+            "end": 134.0,
+            "text": " a database and here MySQL and MongoDB these are some most common databases."
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 134.0,
+            "end": 141.04,
+            "text": " Data can be in spreadsheets like Excel file or a CSV file so files like"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 141.04,
+            "end": 145.56,
+            "text": " spreadsheet that store data in tabular form allowing for analysis and"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 145.56,
+            "end": 152.44,
+            "text": " manipulation. So this is one more data source I would say which is a spreadsheet."
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 152.44,
+            "end": 157.68,
+            "text": " So here you can see the example it can be Google Sheet or a Microsoft Excel"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 157.68,
+            "end": 164.20000000000002,
+            "text": " file which is running on your local server or it can be on cloud. The third"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 164.20000000000002,
+            "end": 169.6,
+            "text": " category we have API so API stands for application programming interfaces. To"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 169.6,
+            "end": 175.52,
+            "text": " understand API in simple words you can understand API as a technology or I"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 175.52,
+            "end": 180.72,
+            "text": " would say a tool which is used to connect two different kind of softwares."
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 180.72,
+            "end": 186.32,
+            "text": " So to give you an example of application programming interfaces or API let's"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 186.32,
+            "end": 191.12,
+            "text": " imagine that you are going to a restaurant right so as a customer I"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 191.12,
+            "end": 196.88,
+            "text": " don't have direct access to kitchen okay and the chef who's preparing the food is"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 196.88,
+            "end": 202.16,
+            "text": " not also having the direct access to the customer. So customer cannot directly talk"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 202.16,
+            "end": 206.79999999999998,
+            "text": " to chef and chef cannot directly talk to customer. So there is a medium between"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 206.79999999999998,
+            "end": 213.2,
+            "text": " these two entities so we have waiters between these two entities so the server"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 213.23999999999998,
+            "end": 217.0,
+            "text": " will come to you will take your order will note down the order and then it"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 217.0,
+            "end": 221.39999999999998,
+            "text": " will transfer to the kitchen department and then chef will prepare the food and"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 221.39999999999998,
+            "end": 226.67999999999998,
+            "text": " it will transfer it to you by this server okay. So there is no direct"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 226.67999999999998,
+            "end": 230.95999999999998,
+            "text": " connection so now you can think about two different softwares. A software which"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 230.95999999999998,
+            "end": 235.35999999999999,
+            "text": " is running on your mobile phone or your computer for example any e-commerce"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 235.35999999999999,
+            "end": 240.95999999999998,
+            "text": " application. So you can order the food you can order the clothes you can order"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 241.08,
+            "end": 245.64000000000001,
+            "text": " any item right but you don't know what is happening in the back end because"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 245.64000000000001,
+            "end": 249.52,
+            "text": " back end there is a database which holds all these values like the information"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 249.52,
+            "end": 254.0,
+            "text": " about the product the stock level the price information so you just click on"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 254.0,
+            "end": 258.24,
+            "text": " buy now and then your order is placed right but what is happening under the"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 258.24,
+            "end": 262.04,
+            "text": " hood you don't have to worry about this. So how this application is interacting"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 262.04,
+            "end": 267.36,
+            "text": " with the database by the help of API. So interfaces provided by websites or"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 267.36,
+            "end": 272.32,
+            "text": " application that allow you to retrieve data by using any programming language"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 272.32,
+            "end": 280.52000000000004,
+            "text": " so API is one category here. For example you can have a Twitter API so you can"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 280.52000000000004,
+            "end": 287.88,
+            "text": " get the tweets by using Twitter API. We can also get the data from surveys and"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 287.88,
+            "end": 292.64,
+            "text": " questionnaires so this is one more data source these tools are used to gather"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 292.76,
+            "end": 299.68,
+            "text": " data directly from individuals by taking surveys and questions. So it can be an"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 299.68,
+            "end": 307.24,
+            "text": " online survey or it can be an in-person interviews to get the data. Nowadays we"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 307.24,
+            "end": 312.12,
+            "text": " can get the data from IOT devices or sensors. IOT stands for Internet of"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 312.12,
+            "end": 316.71999999999997,
+            "text": " Things so you can get the data from different kind of machines and if you"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 316.71999999999997,
+            "end": 320.12,
+            "text": " remember we have talked about machine data sources where you are directly"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 320.28000000000003,
+            "end": 324.4,
+            "text": " capturing the data from a machine. So hardware that collects data from the"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 324.4,
+            "end": 329.12,
+            "text": " environment such as weather stations or you can also collect the data from smart"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 329.12,
+            "end": 333.88,
+            "text": " home devices these sensors and IOT devices are also common data sources"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 333.88,
+            "end": 338.96,
+            "text": " nowadays. You can use social media applications like Facebook, Twitter,"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 338.96,
+            "end": 343.64,
+            "text": " Instagram with data such as users post and the interactions and the comments"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 343.64,
+            "end": 347.76,
+            "text": " are generated. So social media applications are also the data source"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 347.76,
+            "end": 352.2,
+            "text": " here. You can get the information and the data from different websites"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 352.2,
+            "end": 359.59999999999997,
+            "text": " including articles, research papers and other digital content. Documents such as"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 359.59999999999997,
+            "end": 363.64,
+            "text": " research paper or the reports from industry and government publications"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 363.64,
+            "end": 368.88,
+            "text": " that provide data on various topics these are also common data sources. So"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 368.88,
+            "end": 373.36,
+            "text": " this is the last category in our list and we have talked about some common"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 373.36,
+            "end": 377.52,
+            "text": " data sources it can be database it can be an Excel file or a Google Sheet or"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 377.59999999999997,
+            "end": 382.79999999999995,
+            "text": " CSV file it can be directly from machines like IOT devices and sensors or"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 382.79999999999995,
+            "end": 387.91999999999996,
+            "text": " it can be from any API provided by the website. So this is the end of this"
+        },
+        {
+            "number": "6",
+            "title": "F",
+            "start": 387.91999999999996,
+            "end": 392.76,
+            "text": " section thanks for watching I'll see you in the next video"
+        }
+    ],
+    "text": " Hello students, welcome to the new video of fundamentals of data module. So in this video we will be talking about the data sources and what are some common data sources. So databases this is the first thing because when we collect the data and when we try to store the data a database is required and database is the collection of organized data. So when you want to organize the data and you want to retrieve it in a good way then you have to collect it in a database and you have to store it in a database. So you can store this electronically. Now these are the names of some most common databases I would say MySQL is an open source relational database and PostgreSQL is also another database management system and MongoDB. MongoDB is also another database and this is for non-relational as well. So we have two kinds of databases like relational databases and non-relational databases. Few things you are going to learn in your upcoming modules the exact difference between the relational and non-relational database but because you already know from your previous videos about structured and unstructured data so the data which is a structured in form and it's connected with the means of relations so you can have multiple tables in a database like a table of customers a table of orders a table of products. So these tables are connected with a common column between them so that's why we call these as relational databases because there is a relation between these tables but we also have non-relational databases and these databases are like you have the example here which is MongoDB. So nowadays these kind of database are also required because we have the data which is 80 to 85 percent nowadays the data is in unstructured or semi-structured format. So for now the only thing you have to understand is that a data source can be a database and here MySQL and MongoDB these are some most common databases. Data can be in spreadsheets like Excel file or a CSV file so files like spreadsheet that store data in tabular form allowing for analysis and manipulation. So this is one more data source I would say which is a spreadsheet. So here you can see the example it can be Google Sheet or a Microsoft Excel file which is running on your local server or it can be on cloud. The third category we have API so API stands for application programming interfaces. To understand API in simple words you can understand API as a technology or I would say a tool which is used to connect two different kind of softwares. So to give you an example of application programming interfaces or API let's imagine that you are going to a restaurant right so as a customer I don't have direct access to kitchen okay and the chef who's preparing the food is not also having the direct access to the customer. So customer cannot directly talk to chef and chef cannot directly talk to customer. So there is a medium between these two entities so we have waiters between these two entities so the server will come to you will take your order will note down the order and then it will transfer to the kitchen department and then chef will prepare the food and it will transfer it to you by this server okay. So there is no direct connection so now you can think about two different softwares. A software which is running on your mobile phone or your computer for example any e-commerce application. So you can order the food you can order the clothes you can order any item right but you don't know what is happening in the back end because back end there is a database which holds all these values like the information about the product the stock level the price information so you just click on buy now and then your order is placed right but what is happening under the hood you don't have to worry about this. So how this application is interacting with the database by the help of API. So interfaces provided by websites or application that allow you to retrieve data by using any programming language so API is one category here. For example you can have a Twitter API so you can get the tweets by using Twitter API. We can also get the data from surveys and questionnaires so this is one more data source these tools are used to gather data directly from individuals by taking surveys and questions. So it can be an online survey or it can be an in-person interviews to get the data. Nowadays we can get the data from IOT devices or sensors. IOT stands for Internet of Things so you can get the data from different kind of machines and if you remember we have talked about machine data sources where you are directly capturing the data from a machine. So hardware that collects data from the environment such as weather stations or you can also collect the data from smart home devices these sensors and IOT devices are also common data sources nowadays. You can use social media applications like Facebook, Twitter, Instagram with data such as users post and the interactions and the comments are generated. So social media applications are also the data source here. You can get the information and the data from different websites including articles, research papers and other digital content. Documents such as research paper or the reports from industry and government publications that provide data on various topics these are also common data sources. So this is the last category in our list and we have talked about some common data sources it can be database it can be an Excel file or a Google Sheet or CSV file it can be directly from machines like IOT devices and sensors or it can be from any API provided by the website. So this is the end of this section thanks for watching I'll see you in the next video"
+}

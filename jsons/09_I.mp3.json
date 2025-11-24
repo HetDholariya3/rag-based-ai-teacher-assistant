@@ -1,0 +1,635 @@
+{
+    "chunks": [
+        {
+            "number": "9",
+            "title": "I",
+            "start": 0.0,
+            "end": 5.64,
+            "text": " Hi students, welcome to the new video fundamentals of data and in this video"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 5.64,
+            "end": 10.96,
+            "text": " we'll be talking about common data cleaning techniques. So what we learn in"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 10.96,
+            "end": 16.72,
+            "text": " this video understanding the common techniques in data cleaning and how to"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 16.72,
+            "end": 21.04,
+            "text": " remove duplicates, handling missing data, correcting the errors and in"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 21.04,
+            "end": 28.28,
+            "text": " standardizing the data and filter outliers etc. So first of all let's talk"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 28.28,
+            "end": 32.92,
+            "text": " about removing duplicates because in the previous video you have learned what is"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 32.92,
+            "end": 37.760000000000005,
+            "text": " data cleaning. Now the first thing we can learn here is that you can have"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 37.760000000000005,
+            "end": 43.08,
+            "text": " duplicates in the data which is not good. So identifying and eliminating"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 43.08,
+            "end": 48.16,
+            "text": " duplicate records to ensure that each data entry is unique. Not all the time"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 48.16,
+            "end": 53.480000000000004,
+            "text": " you have to go ahead with a unique data but sometimes what happens that you have"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 53.480000000000004,
+            "end": 58.16,
+            "text": " the same record appearing multiple times which is incorrect for your analysis"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 58.239999999999995,
+            "end": 63.76,
+            "text": " so that's why removing duplicate is really important. Now let's say for"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 63.76,
+            "end": 68.16,
+            "text": " example if a database has multiple entries for the same customer duplicate"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 68.16,
+            "end": 72.96,
+            "text": " record should be merged or removed because this record is actually only"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 72.96,
+            "end": 77.67999999999999,
+            "text": " once but it is getting repeated due to some problem it can be any technical or"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 77.67999999999999,
+            "end": 82.88,
+            "text": " non-technical problem but if you have duplicate record so this is the problem"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 82.88,
+            "end": 89.32,
+            "text": " for your analysis so we have to remove this duplicate record. After duplicate"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 89.32,
+            "end": 94.96,
+            "text": " records we have missing values problem and this is very common so when you"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 94.96,
+            "end": 100.39999999999999,
+            "text": " don't have the value for a particular record or a variable so this is called a"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 100.39999999999999,
+            "end": 105.16,
+            "text": " missing value. Now we need to address this this can involve filling in missing"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 105.16,
+            "end": 111.72,
+            "text": " values with estimates or imputation or removing the records you can completely"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 111.88,
+            "end": 115.92,
+            "text": " remove the records if there are missing values but there is no hard and fast"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 115.92,
+            "end": 121.2,
+            "text": " rule for this one. If for example out of all the records there are very less"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 121.2,
+            "end": 124.56,
+            "text": " number of records in which we have missing values so we can remove because"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 124.56,
+            "end": 128.68,
+            "text": " we are not going to lose much information but if you have a lot of"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 128.68,
+            "end": 135.4,
+            "text": " records which are missing and removing all these records are gonna not help you"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 135.4,
+            "end": 140.36,
+            "text": " or it is going to lose a lot of information for you so that's why in"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 140.4,
+            "end": 145.36,
+            "text": " this case handling the missing value is crucial and you have to impute the value"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 145.36,
+            "end": 151.04000000000002,
+            "text": " with some other kind of values. Now let's see the example now replacing missing"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 151.04000000000002,
+            "end": 155.36,
+            "text": " age with the average age or median of the other entries so you have a data set"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 155.36,
+            "end": 160.0,
+            "text": " in which you have an age column few values are missing for few customers or"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 160.0,
+            "end": 163.8,
+            "text": " let's say for a few employees the age is not given so what you are trying to do"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 163.8,
+            "end": 168.88000000000002,
+            "text": " you can impute these values by calculating the median of the age of"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 168.88,
+            "end": 173.16,
+            "text": " other entries and once you get the value you can impute this value in the missing"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 173.16,
+            "end": 180.44,
+            "text": " data. After the missing values we have to correct some kind of errors now what are"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 180.44,
+            "end": 186.4,
+            "text": " the errors like fixing inaccuracies such as some typos or let's say if the format"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 186.4,
+            "end": 191.24,
+            "text": " is not correct or there are invalid entries so you can have some kind of"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 191.24,
+            "end": 196.35999999999999,
+            "text": " spelling problems you can also have formatting error let's say some values"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 196.44000000000003,
+            "end": 200.36,
+            "text": " are in the correct format and other values are not in the correct format so"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 200.36,
+            "end": 205.4,
+            "text": " it can be a date time format for example this example is very good so or you can"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 205.4,
+            "end": 210.52,
+            "text": " have invalid entries so let's say for example I am having a column in which a"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 210.52,
+            "end": 217.12,
+            "text": " value is let's say 500 500 is the value but the variable is like that it cannot"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 217.12,
+            "end": 222.84,
+            "text": " accept the 500 let's say the 500 is the is the number of minutes a person is"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 222.84,
+            "end": 229.04,
+            "text": " doing workout which is very I mean very very hard for someone to work out for"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 229.04,
+            "end": 235.6,
+            "text": " 500 minutes right so it may be possible that the value was 50 but due to some"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 235.6,
+            "end": 241.04,
+            "text": " typo now it is 500 so you have to identify the invalid data as well so you"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 241.04,
+            "end": 245.4,
+            "text": " need to correct these errors one more example for this one is correcting a"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 245.4,
+            "end": 252.48000000000002,
+            "text": " misspell city name or standardizing the date format now we need to standardize"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 252.48,
+            "end": 257.36,
+            "text": " the data as well so ensuring consistency in data formats and values"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 257.36,
+            "end": 262.28,
+            "text": " this might involve converting text to lowercase using consistent date formats"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 262.28,
+            "end": 268.88,
+            "text": " or standardizing units of measurement so if in a column you have the data some"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 268.88,
+            "end": 273.0,
+            "text": " values are in uppercase some values are in lowercase some are in proper case so"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 273.0,
+            "end": 276.84,
+            "text": " this is not correct so you need to make a standard either you can go ahead with"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 276.84,
+            "end": 281.08,
+            "text": " the uppercase only or you can go ahead with the proper case only so you have to"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 281.15999999999997,
+            "end": 285.24,
+            "text": " make sure that all the values are following this standard now you can also"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 285.24,
+            "end": 291.59999999999997,
+            "text": " apply the same to the date formats or standardizing the unit of measurement"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 291.59999999999997,
+            "end": 297.96,
+            "text": " again the example is converting all date to the format like year month and date"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 298.4,
+            "end": 303.84,
+            "text": " now there is a concept of outlier in statistics if you understand the data"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 303.84,
+            "end": 307.84,
+            "text": " you are learning fundamentals of data and understanding outlier is important so"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 307.84,
+            "end": 313.11999999999995,
+            "text": " you can have outliers in the data and these outliers are not actually helping"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 313.11999999999995,
+            "end": 317.76,
+            "text": " us so we need to filter out these so identifying and addressing data points"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 317.76,
+            "end": 322.59999999999997,
+            "text": " that are significantly different from others which may be due to errors or"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 322.59999999999997,
+            "end": 327.44,
+            "text": " exceptional circumstances so any data point or any value which is outside of"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 327.44,
+            "end": 333.59999999999997,
+            "text": " the norm is considered an outlier by the way we have a fixed formula to come to"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 333.96000000000004,
+            "end": 338.20000000000005,
+            "text": " outliers this is in advanced statistics but yeah in simple words you can"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 338.20000000000005,
+            "end": 342.12,
+            "text": " understand anything which is out of the normal range can be considered as"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 342.12,
+            "end": 347.56,
+            "text": " outlier and the example is let's say removing unusually high values in the"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 347.56,
+            "end": 351.96000000000004,
+            "text": " data set of salaries that may result from the data entry errors okay so you"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 351.96000000000004,
+            "end": 356.12,
+            "text": " can find out these values and sometimes by looking at the values you can"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 356.12,
+            "end": 360.04,
+            "text": " identify that yeah they are there are some outliers because the values are out"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 360.08000000000004,
+            "end": 366.08000000000004,
+            "text": " of the norm validating data checking the data adheres to specific rules or"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 366.08000000000004,
+            "end": 370.20000000000005,
+            "text": " constraints such as valid ranges or format so you cannot have let's say for"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 370.20000000000005,
+            "end": 374.28000000000003,
+            "text": " example you cannot have a column in which you have the ages given in the"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 374.28000000000003,
+            "end": 379.24,
+            "text": " negative values right so you can set a constraint in the database that you"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 379.24,
+            "end": 384.08000000000004,
+            "text": " cannot accept any value equal to zero or less than zero right all the values"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 384.08000000000004,
+            "end": 387.28000000000003,
+            "text": " should be greater than zero but sometimes it happens that you have got"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 387.28,
+            "end": 391.79999999999995,
+            "text": " the data and there are violation for these constraints so you need to validate"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 391.79999999999995,
+            "end": 396.44,
+            "text": " the data again the example is ensuring that the phone number follows a standard"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 396.44,
+            "end": 400.55999999999995,
+            "text": " format and have the correct number of digits so I'm not gonna accept any value"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 400.55999999999995,
+            "end": 404.64,
+            "text": " in the phone number column where I have eight digits or nine digits it should be"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 404.64,
+            "end": 410.64,
+            "text": " of 10 digits okay so this is validating data sometimes you need to consolidate"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 410.64,
+            "end": 415.11999999999995,
+            "text": " the data merging the data from different sources or formats into a unified data"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 415.12,
+            "end": 419.84000000000003,
+            "text": " set for your analysis so combining data from different regional sales reports"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 419.84000000000003,
+            "end": 424.7,
+            "text": " into a single comprehensive sales report or sales data set it's consolidating the"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 424.7,
+            "end": 430.28000000000003,
+            "text": " data so to recap we have understood the data cleaning technique these are the"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 430.28000000000003,
+            "end": 434.4,
+            "text": " common ones like removing the duplicate records handling the missing values"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 434.4,
+            "end": 439.56,
+            "text": " correcting the errors or finding out the invalid data and remove it and standardize"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 439.56,
+            "end": 444.96,
+            "text": " the data and filter the outliers if they are visible or present in your data set"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 445.0,
+            "end": 449.08,
+            "text": " so that's the end of this video I hope you are clear with all these concepts"
+        },
+        {
+            "number": "9",
+            "title": "I",
+            "start": 449.08,
+            "end": 453.47999999999996,
+            "text": " now I'll see you in the next video thank you so much"
+        }
+    ],
+    "text": " Hi students, welcome to the new video fundamentals of data and in this video we'll be talking about common data cleaning techniques. So what we learn in this video understanding the common techniques in data cleaning and how to remove duplicates, handling missing data, correcting the errors and in standardizing the data and filter outliers etc. So first of all let's talk about removing duplicates because in the previous video you have learned what is data cleaning. Now the first thing we can learn here is that you can have duplicates in the data which is not good. So identifying and eliminating duplicate records to ensure that each data entry is unique. Not all the time you have to go ahead with a unique data but sometimes what happens that you have the same record appearing multiple times which is incorrect for your analysis so that's why removing duplicate is really important. Now let's say for example if a database has multiple entries for the same customer duplicate record should be merged or removed because this record is actually only once but it is getting repeated due to some problem it can be any technical or non-technical problem but if you have duplicate record so this is the problem for your analysis so we have to remove this duplicate record. After duplicate records we have missing values problem and this is very common so when you don't have the value for a particular record or a variable so this is called a missing value. Now we need to address this this can involve filling in missing values with estimates or imputation or removing the records you can completely remove the records if there are missing values but there is no hard and fast rule for this one. If for example out of all the records there are very less number of records in which we have missing values so we can remove because we are not going to lose much information but if you have a lot of records which are missing and removing all these records are gonna not help you or it is going to lose a lot of information for you so that's why in this case handling the missing value is crucial and you have to impute the value with some other kind of values. Now let's see the example now replacing missing age with the average age or median of the other entries so you have a data set in which you have an age column few values are missing for few customers or let's say for a few employees the age is not given so what you are trying to do you can impute these values by calculating the median of the age of other entries and once you get the value you can impute this value in the missing data. After the missing values we have to correct some kind of errors now what are the errors like fixing inaccuracies such as some typos or let's say if the format is not correct or there are invalid entries so you can have some kind of spelling problems you can also have formatting error let's say some values are in the correct format and other values are not in the correct format so it can be a date time format for example this example is very good so or you can have invalid entries so let's say for example I am having a column in which a value is let's say 500 500 is the value but the variable is like that it cannot accept the 500 let's say the 500 is the is the number of minutes a person is doing workout which is very I mean very very hard for someone to work out for 500 minutes right so it may be possible that the value was 50 but due to some typo now it is 500 so you have to identify the invalid data as well so you need to correct these errors one more example for this one is correcting a misspell city name or standardizing the date format now we need to standardize the data as well so ensuring consistency in data formats and values this might involve converting text to lowercase using consistent date formats or standardizing units of measurement so if in a column you have the data some values are in uppercase some values are in lowercase some are in proper case so this is not correct so you need to make a standard either you can go ahead with the uppercase only or you can go ahead with the proper case only so you have to make sure that all the values are following this standard now you can also apply the same to the date formats or standardizing the unit of measurement again the example is converting all date to the format like year month and date now there is a concept of outlier in statistics if you understand the data you are learning fundamentals of data and understanding outlier is important so you can have outliers in the data and these outliers are not actually helping us so we need to filter out these so identifying and addressing data points that are significantly different from others which may be due to errors or exceptional circumstances so any data point or any value which is outside of the norm is considered an outlier by the way we have a fixed formula to come to outliers this is in advanced statistics but yeah in simple words you can understand anything which is out of the normal range can be considered as outlier and the example is let's say removing unusually high values in the data set of salaries that may result from the data entry errors okay so you can find out these values and sometimes by looking at the values you can identify that yeah they are there are some outliers because the values are out of the norm validating data checking the data adheres to specific rules or constraints such as valid ranges or format so you cannot have let's say for example you cannot have a column in which you have the ages given in the negative values right so you can set a constraint in the database that you cannot accept any value equal to zero or less than zero right all the values should be greater than zero but sometimes it happens that you have got the data and there are violation for these constraints so you need to validate the data again the example is ensuring that the phone number follows a standard format and have the correct number of digits so I'm not gonna accept any value in the phone number column where I have eight digits or nine digits it should be of 10 digits okay so this is validating data sometimes you need to consolidate the data merging the data from different sources or formats into a unified data set for your analysis so combining data from different regional sales reports into a single comprehensive sales report or sales data set it's consolidating the data so to recap we have understood the data cleaning technique these are the common ones like removing the duplicate records handling the missing values correcting the errors or finding out the invalid data and remove it and standardize the data and filter the outliers if they are visible or present in your data set so that's the end of this video I hope you are clear with all these concepts now I'll see you in the next video thank you so much"
+}
