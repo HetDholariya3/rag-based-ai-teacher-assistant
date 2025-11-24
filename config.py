@@ -1,0 +1,2 @@
+# gemini api key
+api_key = "#"

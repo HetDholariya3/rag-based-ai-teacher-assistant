@@ -1,0 +1,9 @@
+It's great that you're finding the material impressive! You might be reacting to the concept of **Feature Engineering**, which is a powerful and creative step in machine learning.
+
+1️⃣ **Explanation:** This is the process of creating new data columns (features) from the ones you already have. For example, if your data has a 'date of birth' column, you can engineer a brand new and very useful 'age' column from it. It feels a bit like magic—creating valuable new information from the original data.
+
+2️⃣ **In which video number & title:** This was mentioned in **Video J10**.
+
+3️⃣ **Exact timestamp (start → end seconds):** You can find this concept discussed between **419.64 → 423.64**.
+
+4️⃣ **Suggest where student should go in the course:** Now that you've seen the power of creating new features, a great next step would be to review the other data transformation techniques from this video, like **normalization** and **encoding**, to get a full picture of how data is prepared for a machine learning model.
